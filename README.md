@@ -59,11 +59,47 @@ __ln -s__ - _Create links to a file_
 __Examples__
 
 ```
+ln -s file1 file2
+```
+---
 
-* scp
-* pwd
-* ls (hidden files and files starting or ending with specific patterns like all files ending in txt or all files starting with the letter b)
-* tar
+__scp__ - _Copies files between hosts on a network_
+
+__Examples__
+
+```
+scp file1 file2
+```
+---
+
+__pwd__ - __Prints the absolute path of the current working directory__
+
+__Examples__
+
+```
+pwd
+/users/considine/mydir
+```
+
+__ls__ - __List files in a directory__
+
+__Examples__
+
+```
+ls
+ls dir1 dir2 dir3
+ls file1 file2 file3
+```
+---
+
+__tar__ - __Converts a group of files into an archive__
+
+__Examples__
+
+```
+tar archive_name file1 file2
+```
+---
 
 ## File Transfer
 
