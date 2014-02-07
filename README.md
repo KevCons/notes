@@ -35,10 +35,31 @@ cp -r myFolder/ myNewFolder
 ```
 ---
 
-* cp (folder and individual files)
-* rm (file and directories)
-* rmdir
-* ln -s
+__rm__ - _Delete a file or folder__
+
+__Examples:__
+
+```
+rm file1 file2 file3
+rm -r dir1 dir2
+```
+---
+
+__rmdir__ - _Delete an empty directory_
+
+__Examples__
+
+```
+rmdir /tmp/junk
+```
+---
+
+__ln -s__ - _Create links to a file_
+
+__Examples__
+
+```
+
 * scp
 * pwd
 * ls (hidden files and files starting or ending with specific patterns like all files ending in txt or all files starting with the letter b)
